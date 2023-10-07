@@ -1,0 +1,45 @@
+body {
+    text-align: center;
+    font-family: Arial, monospace;
+    background-image:url(arcadebckgrnd.jpg);
+}
+
+h1 {
+    color: #e5dbe1;
+}
+
+form {
+    margin: 20px auto;
+    padding: 50px;
+    background-color: #c224bf;
+    border-radius: 5px;
+    box-shadow: 0 0 1-px rgba(0, 0, 0, 0.2);
+    width: 300px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #be2424;
+    border-radius: 3px;
+}
+
+input[type="submit"] {
+    background-color: #c224bf;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #df1b9e;
+}
